@@ -8,7 +8,12 @@ function App() {
     <div>
       <Header />
 
-      <Profile />
+      <div className="page-content">
+        <Profile id="profile"/>
+        <Profile id="experiences"/>
+        <Profile id="abilities"/>
+        <Profile id="projects"/>
+      </div>
     </div>
   );
 }

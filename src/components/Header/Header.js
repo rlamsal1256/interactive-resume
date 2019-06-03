@@ -3,7 +3,7 @@ import {Nav, Navbar} from "react-bootstrap";
 import './header.scss';
 
 const Header = () => (
-  <Navbar bg="dark" expand="lg" variant="dark">
+  <Navbar fixed="top" bg="dark" expand="lg" variant="dark">
     <Navbar.Brand href="#home">Interactive Resume</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

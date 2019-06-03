@@ -1,9 +1,9 @@
 import React from 'react';
 import './profile.scss';
 
-const Profile = () => {
+const Profile = ({ id }) => {
   return (
-    <div className="profile">
+    <div id={id} className="profile">
       <h2>Profile</h2>
       <p className="sub-header">I'm a creative web developer</p>
       <hr />
