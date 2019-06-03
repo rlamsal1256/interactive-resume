@@ -1,0 +1,14 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar {
+  .navbar-nav {
+    margin-right: 1rem;
+
+    .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}
