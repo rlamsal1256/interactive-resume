@@ -1,0 +1,31 @@
+.sub-header {
+  text-align: center;
+  color: #727878;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .sub-header {
+    font-size: 21px;
+  }
+}
+
+.experience-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-title {
+  flex: 4;
+}
+
+.experience-description {
+  flex: 8;
+}
+
+.experience-period {
+
+}

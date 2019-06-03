@@ -31,6 +31,23 @@ h2 {
   margin-top: 20px;
 }
 
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #22A39F;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.1;
+}
+
 p {
   margin: 0 0 10px;
 }

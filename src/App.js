@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
+import Experiences from './components/Experiences/Experiences';
 import './App.scss';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
       <div className="page-content">
         <Profile id="profile"/>
-        <Profile id="experiences"/>
+        <Experiences id="experiences"/>
         <Profile id="abilities"/>
         <Profile id="projects"/>
       </div>
